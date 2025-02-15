@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-attachment: fixed; */
+  /* background-size: cover; */
+  /* width: 100%; */
+  overflow-x: hidden;
+  /* background-color: #26224f; */
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-self: unset; */
+  justify-content: center;
+  width: 45vw;
+  /* width: 400px; */
+  /* height: 50vw; */
+  background-color: #26224f;
+  border: 1px solid black;
+}
+
+.container1 {
+  margin-top: 6vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  min-height: 15vw;
+  width: 100%;
+  max-width: 100%;
+  /* border: 1px solid white; */
+}
+
+.container1Img {
+  position: absolute;
+  top: 0;
+  left: 0vw;
+  overflow: hidden;
+}
+.container1Img1 {
+  height: 10vw;
+}
+
+.container1Data {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+}
+.container1P1 {
+  font-size: 1.5vw;
+  font-family: 'Poppins';
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container1P2 {
+  font-size: 1.2vw;
+  font-weight: 600;
+  /* line-height: 2.587vw; */
+  margin: 0;
+  text-align: center;
+  width: 30vw;
+  color: #ffffff;
+}
+
+.container2 {
+  position: absolute;
+  right: 0;
+  top: 5vw;
+}
+.container2Img {
+  height: 10vw;
+  overflow: hidden;
+}
+
+.container3 {
+  margin-top: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  /* gap: 0.5vw; */
+  width: 100%;
+  max-width: 100%;
+}
+.container3d1{
+    /* margin-left: -5vw; */
+    width:20vw;
+    height: 20vw;
+    /* height:17vw; */
+    /* border: 1px solid white; */
+    background:url("./Images/Group 3.svg");
+    background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+    margin-left: 1vw;
+}
+
+/* .glow-effect{
+  width: 150px;
+  height: 150px;
+  background-color: #76618E; 
+      background: #76618E;
+      box-shadow: -10.82px 10.82px 10.82px 0px #FFFFFF1A inset;
+box-shadow: 10.82px -10.82px 10.82px 0px #A5A5A51A inset;
+backdrop-filter: blur(90.0999984741211px);
+} */
+
+.container3Img {
+  /* width: 12.125vw;  */
+  /* width: 194px; */
+  /* width: 1.5vw; */
+  /* height: 14.625vw; */
+  width: 100%;
+ /* height: 30vw; */
+  object-fit: contain;
+
+}
+
+.container3d2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 0.5vw;
+}
+.container3d2Img {
+    width: 16.625vw;
+    height: 3.5vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background: url('./Images/Rectangle 2.svg');
+  background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+}
+
+.container3d2text {
+    font-size: 0.8vw;
+    font-weight: 400;
+    color: #000000;
+    font-family: 'Kaisei Opti';
+  }
+
+  .container3Main{
+    height: 140px;
+    box-sizing: border-box;
+    padding: 0.5vw;
+    overflow: hidden;
+    /* border: 1px solid yellow; */
+  }
+
+  .gradient-box{
+    width:370px;
+    height: 200px;
+    /* background: linear-gradient(
+    179.61deg,
+    #76618e 0.36%,
+    rgba(33, 27, 40, 0.3) 106.79%
+  ); */
+  background: linear-gradient(179.61deg, #76618E 0.36%, rgba(33, 27, 40, 0.3) 106.79%);
+  border-top-right-radius: 5vw;
+  border-top-left-radius: 6vw;
+  border-bottom-right-radius: 8vw;
+  border-bottom-left-radius: 3vw;
+  /* border:1px solid black; */
+  transform: rotate(-5deg);
+  /* margin-top: 1.5vw; */
+  position: relative;
+  }
+
+  .gradient-boxRotates{
+    transform: rotate(5deg);
+    position: absolute;
+    top: 15%;
+    left: 8%;
+    width: 20vw;
+    font-weight: 400;
+  }
+  .gradient-boxText {
+    font-size: 1vw;
+    color: #ffffff;
+    font-weight: 500;
+}
+    
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.5vw; */
+    margin-top: 6vw;
+    /* border: 1px solid yellow; */
+}
+.container4d1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* gap: 0.2vw; */
+    /* border: 1px solid red; */
+    /* margin-left: 4vw; */
+
+}
+.container4Rounded{
+    width: 17vw;
+    height: 4.2vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background: url('./Images/Rectangle 6.svg');
+  background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+  box-sizing: border-box;
+  padding-left: 1.6vw;
+  /* border: 1px solid white; */
+  /* margin-left: 2.5vw; */
+}
+
+.container3d2text2{
+    font-size: 0.8vw;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'Kaisei Opti';
+}
+
+.container4Main{
+    height: 140px;
+    box-sizing: border-box;
+    padding: 0.5vw;
+    overflow: hidden;
+   
+
+}
+
+.container4Box {
+    width:340px;
+    height: 200px;
+    background: linear-gradient(
+    179.61deg,
+    #76618e 0.36%,
+    rgba(33, 27, 40, 0.3) 106.79%
+  );
+  /* border:1px solid black; */
+  transform: rotate(5deg);
+  /* margin-top: 1.5vw; */
+  position: relative;
+  border-top-right-radius: 6vw;
+  border-top-left-radius: 4.5vw;
+  border-bottom-right-radius: 3vw;
+  border-bottom-left-radius: 8vw;
+
+
+}
+
+.container4BoxRotates {
+    position: absolute;
+    transform: rotate(-5deg);
+    top: 15%;
+    left: 8%;
+    width: 18vw;
+    font-weight: 400;
+}
+
+.container4BoxText {
+    font-size: 1vw;
+    color: #ffffff;
+    font-weight: 500;
+  }
+
+.container4d2{
+  /* width: 18.5vw; */
+  /* height: 20.938vw; */
+  /* border: 1px solid goldenrod;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+    /* margin-left: -1.5vw; */
+
+    width: 22.5vw;
+    height: 22.938vw; /* Set height explicitly */
+    /* border: 1px solid goldenrod; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./Images/Group 5.svg') no-repeat center;
+    background-size: contain;
+    /* margin-left: 1vw; */
+  }  
+
+.container4Img{
+  width: 100%;
+  height: 25.938vw;
+  object-fit: cover; /* Fills the container, but might crop */
+  object-position: center; 
+
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8vw;
+    gap: 0.2vw;
+    /* border: 1px solid white; */
+}
+
+.container5d1{
+    /* width: 15.5vw;
+    height: 12.938vw; */
+    /* border: 1px solid white; */
+    /* margin-left: 1vw; */
+    width:20vw;
+    height: 20vw;
+    /* height:17vw; */
+    /* border: 1px solid white; */
+    background:url("./Images/Group 6.svg");
+    background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+    margin-left: 1vw;
+}
+
+.container5d1Img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container5Rounded{
+    width: 16.625vw;
+    height: 3.8vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background: url('./Images/Rectangle 7.svg');
+  background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+  box-sizing: border-box;
+  /* padding-left:vw; */
+  margin-left: 2vw;
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+      margin-top: 6vw;
+      gap: 0.2vw;  
+      /* width: 100%; */
+      /* border: 1px solid white; */
+
+}
+
+
+.container6Rounded{
+    width: 16.625vw;
+    height: 3.8vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background: url('./Images/Rectangle 8.svg');
+  background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+  box-sizing: border-box;
+  padding-left: 1.2vw;
+  margin-left: 2vw;
+}
+
+
+.container6d2{
+    /* width: 18.5vw;
+    height: 12.938vw;
+    border: 1px solid white;
+    margin: 0;
+    padding: 0; */
+    width:20vw;
+    height: 30vw;
+    /* height:17vw; */
+    /* border: 1px solid white; */
+    background:url("./Images/Group 7.svg");
+    background-size: cover; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+  /* border: 1px solid white; */
+  /* margin-right: 2vw; */
+}
+
+.container6d2Img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container7{
+    margin-top: 0.2vw;
+    position: relative;
+    /* min-height: 20vw; */
+    width: 100%;
+    /* border: 1px solid white; */
+}
+
+.container7d1{
+    position:absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.container7Img1{
+   height: 10vw;
+}
+
+.container7d2{
+    margin-top: 10vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    /* border: 1px solid white; */
+}
+
+.container7d3{
+    /* width: 18.5vw;
+    height: 25.938vw; */
+
+}
+
+.container7d3Img{
+    /* width: 100%;
+    height: 100%; */
+    width: 22.5vw;
+    height: 20.938vw;
+    /* border: 1px solid white; */
+    object-fit: cover;
+    margin-left: -4vw;
+}
+.container7d4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5vw;
+}
+
+.container7Rounded{
+    width: 16.625vw;
+    height: 3.8vw;
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  background: url('./Images/Rectangle 10.svg');
+  background-size: contain; /* Ensures image fits within the container */
+  background-repeat: no-repeat; /* Prevents tiling */
+  background-position: center;
+  box-sizing: border-box;
+  padding-left: 1.2vw;
+}
+
+.container8{
+  margin-top: 3vw;
+  min-height: 8vw;
+}
+
+.container8text{
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5vw;
+  font-weight: 400;
+  text-decoration: underline;
+}
